@@ -215,7 +215,7 @@ EOT;
 
     public function estimate_header($params = array()){foreach($params as $key => $val){$$key = $val;}$output = <<<EOT
     <body class="ep-body">
-        <div id="estimate-form">
+        <div class="estimator">
 			<table id="estimator-table" cellspacing="0" cellpadding="0">
 				<thead>
 					<tr>
